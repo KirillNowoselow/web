@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(124, 122, 122);
+}
+
+.modal{
+    width: 450px;
+    height: 160px;
+    background: white;
+    font-family: Arial;
+    border-radius: 7px;    
+    position: absolute;
+    left: 35%;
+    top: 40%;
+}
+
+.modal-content{
+    position: relative;
+    line-height: 42px;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.close{
+    background: rgb(14, 14, 159);
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+    margin-top: 5px;
+    border: 0;
+    width: 25px;
+    height: 25px;
+    color: white;
+    border-radius: 50%;
+    font-size: 23px;
+    text-align: center;
+
+}
+
+.modal-h1{
+    color: rgb(1, 1, 208);
+    font-size: 18px;
+    
+}
+
+.text{
+    font-size: 15px;
+}
+
+.ok{
+    width: 160px;
+    height: 33px;
+    background: rgb(1, 1, 208);
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    top: 0;
+}
