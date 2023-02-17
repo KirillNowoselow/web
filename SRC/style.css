@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Varela Round', sans-serif;
 }
+
 .h1{
     text-transform:  uppercase;
     text-align: center;
@@ -14,9 +15,11 @@
 }
 
 .main-part{
-    margin-top: 6%;
-    margin-left: 7%;
-    line-height: 1.6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10%;
 }
 
 h2{
@@ -24,25 +27,6 @@ h2{
     font-size: 20px;
 }
 
-.block1{
-    float: left;
+.block{
     width: 300px;
-}
-
-.block2{
-    float: left;
-    width: 300px;
-    margin-left: 35px;
-}
-
-.block3{
-    float: left;
-    width: 300px;
-    margin-left: 35px;
-}
-
-.block4{
-    float: left;
-    width: 300px;
-    margin-left: 35px;
 }
